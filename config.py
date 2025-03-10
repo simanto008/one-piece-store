@@ -24,7 +24,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6741151244"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb://onelyon:dEMDQgeScx9pQtNX@<hostname>/?ssl=true&replicaSet=atlas-14084f-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "onepiece")
 
 #Time in seconds for message delete, put 0 to never delete
